@@ -2,8 +2,6 @@ from pydub import AudioSegment
 from pydub.playback import play
 from pydub.generators import Sine
 
-AudioSegment.converter = '/Users/nero/Downloads/ffmpeg/'
-
 # Attack and Release cannot be equal to zero due to technical limitations
 def adr_envelope(generator, attack=1, decay=1000, release=1):
 

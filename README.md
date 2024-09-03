@@ -42,9 +42,9 @@ They are completely isolated from other virtual environments and you will have t
 
     if your next prompt starts with `(python)` or `(<current-directory-name>)` then you have successfully activated your virtual environment and can now work on your code. But first we need to install some packages
 
-4. Install **pydub** and **pyaudio**:
+4. Install **pydub**, **pyaudio** and **scipy**:
 
-    `pip install pydub pyaudio`
+    `pip install pydub pyaudio scipy`
 ---
 
 ### Mac OS
